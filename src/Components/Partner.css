@@ -1,0 +1,112 @@
+.background-image{
+    width: 100%;
+    height: 605px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+.logo1{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+   text-shadow: 
+      0 0 5px rgba(255,255,255,0.8),
+      0 0 10px rgba(255,255,255,0.6),
+      0 0 20px rgba(255,255,255,0.4);
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 
+          0 0 5px rgba(0,0,255,0.6),
+          0 0 10px rgba(255,0,255,0.4);
+    }
+    to {
+        text-shadow: 
+          0 0 15px rgba(255, 0 ,0,1),
+          0 0 30px rgba(0 ,255,255,0.8);
+    }
+}
+
+.nav1 .button1{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border:white 2px solid;
+    background-color: transparent;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    box-shadow: 0 4px 12px rgb(255, 255, 255,0.5);
+}
+.button1:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.content1{
+   border: 2px solid white;
+   border-radius: 10px;
+   width: 25%;
+   height: 250px;
+   margin-top: 20px;
+   color: white;
+   margin-left: 500px;
+   box-shadow: 0 4px 12px rgb(255, 255, 255,0.5);
+   backdrop-filter: blur(5px);
+}
+.content1 h2{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+.content1 input{
+    padding-left: 15px;
+    color: white;
+}
+.phone{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 55px;
+    width: 200px;
+    height: 50px;
+}
+input::placeholder{
+    color: white;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.otp{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 55px;
+    width: 200px;
+    height: 50px;
+}
+.submit1{
+    margin-top: 20px;
+    margin-left: 98px;
+    padding: 10px 25px;
+    border:white 2px solid;
+    background-color: transparent;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    box-shadow: 0 4px 12px rgb(255, 255, 255,0.5);
+}
